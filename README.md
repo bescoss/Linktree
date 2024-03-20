@@ -32,7 +32,7 @@ To use this template, follow these steps:
 
 Here's how the Linktree template might look:
 
-[Linktree Template]([linktree-template.png](https://bescoss.github.io/Linktree/))
+[Linktree Template](https://bescoss.github.io/Linktree/)
 
 ## License
 
