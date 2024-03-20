@@ -1,82 +1,54 @@
-html, body{
+/* General styles */
+html, body {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
-.lightgray{
-    background-color: white;
-}
-
-.lightgreen {
-    background-color: #1C6DD0;
-}
-
-.darkgreen {
-    background-color: #0a3c78;
-}
-
-.darkgray{
-    background-color: #1C6DD0;
-
-}
-
-.whitefont{
-    color: rgb(255, 255, 255);
-}
-
-.black{
-    background-color: white;
-}
-
+/* Top navigation */
 .topnav {
     overflow: hidden;
-  }
-  
+    background-color: #2367bb;
+
+}
+
 .topnav a {
     float: left;
     text-align: center;
     padding: 10px 20px;
-    text-decoration: none;
+    text-decoration:none;
     font-size: 20px;
     font-weight: bold;
+    color: white;
     transition: 0.8s;
 }
-  
-.topnav a:hover {
-    background-color: #0a3c78;  
-}
-  
+
 .topnav a.active {
     background-color: #0a3c78;
     transition: 0.8s;
 }
+
+.topnav a:hover,
 .topnav a.active:hover {
-    background-color: #0a3c78;
+    background-color: #042349;
 }
 
-.socials{
+/* Social links */
+.socials {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 17rem;
-    opacity: 0.95;
-}
-
-.images{
-    width: 10rem;
-    height: 10rem;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
     margin-top: 2rem;
 }
 
 .social {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 1rem;
     width: 15rem;
     height: 15rem;
@@ -85,23 +57,29 @@ html, body{
     background-color: #1C6DD0;
 }
 
-.social img{
-    transition: 0.2s linear;
+.images {
+    width: 10rem;
+    height: 10rem;
 }
 
-.social:hover{
-    background-color:  #0a3c78;
+.social:hover {
+    background-color: #0a3c78;
 }
 
-.social:hover img{
+.social:hover img {
     width: 11rem;
     height: 11rem;
 }
 
-#gif{
-    width: 100%;
-    height: 20rem;
-    float: left;
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .topnav a {
+        font-size: 16px;
+    }
 }
 
-
+@media only screen and (max-width: 480px) {
+    .topnav a {
+        font-size: 14px;
+    }
+}
