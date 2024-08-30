@@ -12,7 +12,7 @@ html, body {
 /* Top navigation */
 .topnav {
     overflow: hidden;
-    background-color: #2367bb;
+    background-color: #3b948f;
 
 }
 
@@ -28,13 +28,13 @@ html, body {
 }
 
 .topnav a.active {
-    background-color: #0a3c78;
+    background-color: rgb(13, 37, 34);
     transition: 0.8s;
 }
 
 .topnav a:hover,
 .topnav a.active:hover {
-    background-color: #042349;
+    background-color: #103331;
 }
 
 /* Social links */
@@ -54,7 +54,7 @@ html, body {
     height: 15rem;
     transition: 0.5s linear;
     border-radius: 5%;
-    background-color: #1C6DD0;
+    background-color: #3b948f;
 }
 
 .images {
@@ -63,7 +63,7 @@ html, body {
 }
 
 .social:hover {
-    background-color: #0a3c78;
+    background-color: #074642;
 }
 
 .social:hover img {
